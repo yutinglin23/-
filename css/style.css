@@ -1,0 +1,138 @@
+html{
+    box-sizing:border-box;
+  
+  }
+  *,*::before,*::after{
+      box-sizing: inherit;
+  }
+  body{
+    background-color: #EDF2C5;
+    width: 1260px;
+    height: 1000px;
+    margin:0 auto;
+    font-family:Arial;
+}
+.container{
+    margin:0 160px;
+    width:940px;
+    height:880px;
+}
+header{
+    height: 95px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top:50px;
+    margin-bottom: 12px;
+   
+}
+.btn_box{
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #778A50;
+    border-radius: 3px;
+    border:solid 1px #778A50;
+    background-color: #EDF2C5;
+   
+ 
+}
+
+.title1{
+   
+    height: 36px;
+    margin-bottom:50px;
+    font-size: 44px;
+    font-weight: 900;
+    color: black;
+  }
+.logo{
+    width:100px;
+    height: 100px;
+}
+nav{
+    margin-bottom: 10px;
+    margin-left:20px;
+    display: flex;
+    height:44px;
+    border-radius: 3px;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.nav-word{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 44px;
+    color: black;
+    text-decoration:none;
+    border:2px solid plum;
+    background-color: white;
+}
+.nav-word:hover{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #d6d6d6;
+    text-decoration:none;
+}
+.line{
+    width: 414px;
+    height: 10px;
+    background-color:black;
+}
+.command{
+    height: 448px;
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+.box-b{
+    display:flex;
+    justify-content: space-between;
+    height: 150px;
+    flex-direction:column;
+}
+.title{
+    width: 50px;
+    height: 36px;
+    margin-bottom:50px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+  }
+.box{
+    display:flex;
+    justify-content: space-between;
+    height: 200px;
+    flex-direction:row;
+}
+.content-a{
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+}
+.socail{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 95px;
+    
+    
+
+}
+
+
+
+
+
+
+footer{
+    background-color: #778A50;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #EDF2C5;
+    font-size: 12px;
+    margin-top: 110px;
+}
